@@ -1,5 +1,7 @@
 #!/bin/bash
 
+#generates a list of passwords fitting the pattern SKY-SEED-XXXX where XXXX is a number 0000-9999
+
 for i in {1..9999}
 do
 	if [ $i -lt 10 ]; then
